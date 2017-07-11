@@ -1,0 +1,273 @@
+@font-face {
+    font-family: 'iconfontyyy';
+    /* project id 347542 */
+    src: url('http://at.alicdn.com/t/font_ley8ow6nz96n7b9.eot');
+    src: url('http://at.alicdn.com/t/font_ley8ow6nz96n7b9.eot?#iefix') format('embedded-opentype'), url('http://at.alicdn.com/t/font_ley8ow6nz96n7b9.woff') format('woff'), url('http://at.alicdn.com/t/font_ley8ow6nz96n7b9.ttf') format('truetype'), url('http://at.alicdn.com/t/font_ley8ow6nz96n7b9.svg#iconfont') format('svg');
+}
+
+.iconfontyyy {
+    font-family: "iconfontyyy" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 400 1em/1.8 -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", STHeiti, "Microsoft Yahei", Tahoma, Simsun, sans-serif;
+    color: #2b3f55;
+    background-color: #f7f7f7;
+    font-size: .9em;
+}
+
+a {
+    color: #2b3f55;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ea4c89;
+}
+
+.profile .dribbble {
+    color: #ea4c89;
+}
+
+.header {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.profile h1 {
+    position: relative;
+}
+
+.profile p {
+    line-height: 2.2em;
+    position: relative;
+}
+
+.profile span {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.profile .github {
+    color: #24292e;
+    position: relative;
+}
+
+.profile .email {
+    color: #4fcf8f;
+    position: relative;
+}
+
+.dribbble:hover, .github:hover, .email:hover {
+    color: #545454;
+}
+
+.main, .profile {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    /*background: pink;*/
+}
+
+.profile a i {
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+.main div h2 {
+    font-size: 1em;
+}
+
+.main i {
+    margin-right: .5em;
+    font-weight: normal;
+}
+
+.wrapper div p {
+    font-size: .9em;
+}
+
+.wrapper .college {
+    text-indent: 22px;
+}
+
+.edu, .job, .study, .works {
+    margin-top: 60px;
+}
+
+.edu, .job, .study {
+    display: inline-block;
+    vertical-align: top;
+    /*background-color: pink;*/
+}
+
+.edu p, .job p, .study p {
+    line-height: 3em;
+}
+
+.edu {
+    width: 40%;
+}
+
+.job {
+    width: 40%;
+}
+
+.study {
+    width: 18%;
+}
+
+.works .work {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 40px;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+}
+
+.works .container .work:nth-child(odd) {
+    margin-right: 9.3%;
+    /*background-color: green;*/
+}
+
+.works .tags {
+    margin-top: 10px;
+}
+
+.works .javascript {
+    color: #F3C969;
+}
+
+.works .html {
+    color: #FF7700;
+}
+
+.works .vue {
+    color: #2CA58D;
+}
+
+.works .css {
+    color: #067BC2;
+}
+
+.works .weixin {
+    color: #4FCF8F;
+}
+
+.works img {
+    max-width: 100%;
+}
+
+.works h2 {
+    margin-bottom: 20px;
+}
+
+.rectangle, .triangle, .circle {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.circle {
+    opacity: .5;
+    width: 70px;
+    animation-name: bubble3;
+    animation-duration: 18s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.rectangle {
+    opacity: .5;
+    width: 80px;
+    animation-name: bubble;
+    animation-duration: 23s;
+    animation-delay: 3s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.triangle {
+    opacity: .5;
+    width: 100px;
+    animation-name: bubble2;
+    animation-timing-function: ease-in-out;
+    animation-duration: 22s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+}
+
+@keyframes bubble {
+    from {
+        transform: translate(-100px, 300px) rotate(0);
+    }
+    to {
+        transform: translate(600px, -50px) rotate(300deg);
+    }
+}
+
+.icon {
+    width: 18px;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+@keyframes bubble2 {
+    from {
+        transform: translate(-50px, -150px) rotate(0);
+    }
+    to {
+        transform: translate(1000px, 650px) rotate(800deg);
+    }
+}
+
+@keyframes bubble3 {
+    0% {
+        opacity: 0;
+        transform: translate(700px, 600px);
+    }
+    25% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        transform: translate(750px, -200px);
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .works .work {
+        width: 100%;
+    }
+    .works img {
+        width: 100%;
+    }
+    .works .container .work:nth-child(odd) {
+        margin-right: 0;
+        /*background-color: green;*/
+    }
+    .edu, .job, .study {
+        display: block;
+        vertical-align: top;
+        width: 100%;
+    }
+}
