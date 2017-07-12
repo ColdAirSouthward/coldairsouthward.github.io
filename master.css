@@ -254,6 +254,14 @@ a:hover {
     }
 }
 
+footer {
+    text-align: center;
+    font-size: .8em;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #aaabab;
+}
+
 @media screen and (max-width: 730px) {
     .works .work {
         width: 100%;
