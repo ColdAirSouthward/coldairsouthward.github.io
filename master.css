@@ -140,6 +140,15 @@ a:hover {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
 }
 
+.works .work h3 {
+    margin: 10px;
+}
+
+.works .work p {
+    font-weight: 200;
+    margin: 10px;
+}
+
 .works .container .work:nth-child(odd) {
     margin-right: 9.3%;
     /*background-color: green;*/
@@ -147,6 +156,15 @@ a:hover {
 
 .works .tags {
     margin-top: 10px;
+    margin-right: 10px;
+}
+
+.works .tags span {
+    margin-right: 10px;
+}
+
+.work .three {
+    border: 1px solid #eee;
 }
 
 .works .javascript {
@@ -174,7 +192,7 @@ a:hover {
 }
 
 .works h2 {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .rectangle, .triangle, .circle {
